@@ -139,9 +139,9 @@ I suggest you import the constants in your namespace when dealing with this suit
 
 =head2 Decision::ACL::Rule
 
-Rules objects are also created using the new() constructor.
+Rules objects are created using the new() constructor.
 
-	my $rule = Decision::ACL->new({
+	my $rule = Decision::ACL::Rule->new({
 						action => 'deny',
 						now => 1,
 						fields  =>

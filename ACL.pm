@@ -3,7 +3,7 @@ package Decision::ACL;
 use strict;
 use Carp;
 use vars qw($VERSION);
-$VERSION = '0.01';
+$VERSION = '0.02';
 
 use Decision::ACL::Constants qw(:rule);
 use Decision::ACL::Rule;
